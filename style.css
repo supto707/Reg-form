@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Header styles */
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+/* Input section styles */
+.inputSec {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1.2em;
+}
+
+input:focus {
+  border-bottom: 2px solid #4CAF50;
+}
+
+/* Error message styles */
+#err1,
+#err2,
+#err3,
+#err4,
+#err5,
+#err6,
+#err7 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rxem;
+}
+
+/* Button styles */
+.btn {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  font-size: 27px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  /* Container styles */
+  .container {
+    width: 90%;
+  }
+  
+  /* Input section styles */
+  .inputSec {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    font-size: 1em;
+  }
+  
+  /* Error message styles */
+  #err1,
+  #err2,
+  #err3,
+  #err4,
+  #err5,
+  #err6,
+  #err7 {
+    font-size: 0.6em;
+  }
+}

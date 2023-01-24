@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+    <form action="#" onsubmit="return myFunc()">
+      <div class="container">
+        <header><h1>Registration</h1> </header>
+        <div class="inputSec">
+          <input type="text" placeholder="First name" name="fn" id="fn" ><span id="err1"> </span>
+        </div>
+        <div class="inputSec">
+          <input type="text" placeholder="Last name" name="ln" id="ln"><span id="err2"> </span>
+        </div>
+        <div class="inputSec">
+          <input type="text" placeholder="Username" name="un" id="un" ><span id="err3"> </span>
+        </div>
+        <div class="inputSec">
+          <input type="email" placeholder="Email Address" name="ea" id="ea" required><span id="err4"> </span>
+        </div>
+        <div class="inputSec">
+          <input type="email" placeholder="Confirm Email" name="ce" id="ce" required><span id="err5"> </span>
+        </div>
+        <div class="inputSec">
+          <input type="password" placeholder="Password" name="pass" id="pass"><span id="err6"> </span>
+        </div>
+        <div class="inputSec">
+          <input type="password" placeholder="Confirm Password" name="cpass" id="cpass"><span id="err7"> </span>
+        </div>
+        <div class="btn">
+          <input type="submit" value="Submit" >
+        </div>
+      </div>
+    </form>
+</body>
+</html>
